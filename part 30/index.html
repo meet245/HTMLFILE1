@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css veriables</title>
+    <style>
+        :root{
+            --color:rgb(255, 0, 200);
+            --seccolor:rgb(244, 126, 255);
+            --defpad:23px;
+            /* --defop:0.4; */
+        }
+       *{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color:var(--seccolor)
+}
+ul{
+    display: flex;
+}
+ul li{
+    opacity:var(--defop);
+    list-style: none;
+    padding: var(--defpad);
+    border: 2px solid var(--color);
+    border-radius: 20px;
+   
+}
+ul li:first-child{
+    --color:rgb(17, 139, 38);
+   background-color: var(--color, blue);
+   font-style: italic;
+   color: aqua;
+}
+  .container{
+    background-color:var(--color);
+    
+
+  }
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <ul>
+        <li>meet</li>
+        <li>dev</li>
+        <li>meet</li>
+    </ul>
+    </div>
+    <div class="container">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium blanditiis rem soluta voluptatum fugiat qui quod molestias deleniti voluptates nihil temporibus, eius quidem dolor et veritatis culpa itaque. Eligendi doloribus unde totam provident accusantium assumenda quia recusandae, deleniti explicabo sint? Vel delectus expedita laborum.
+    </div>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <!-- <nav>
+        <div class="container">
+            <h1>My Website</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to My Website</h2>
+            <p>We provide awesome services to help you grow your business.</p>
+            <button onclick="alert('You clicked!')">Learn More</button>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers and designers.</p>
+        </div>
+    </section> -->
+
+    <!-- Services Section -->
+    <!-- <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@mywebsite.com</p>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="container">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </div>
+    </footer> --> -->
+</body>
+</html> -

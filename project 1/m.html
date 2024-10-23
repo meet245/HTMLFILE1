@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation</title>
+
+    <style>
+
+      /* .box{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        animation-name:slideIn ;
+      }
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideOut {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+} */
+
+@keyframes cubeRotate {
+  0% { transform: rotateX(0) rotateY(0); }
+  25% { transform: rotateX(90deg) rotateY(0); }
+  50% { transform: rotateX(90deg) rotateY(90deg); }
+  75% { transform: rotateX(0) rotateY(90deg); }
+  100% { transform: rotateX(0) rotateY(0); }
+}
+@keyframes cubeRotate {
+  0% {  background-color: aqua;}
+  25% {   background-color: rgb(37, 23, 243);}
+  50% {  background-color: blueviolet; }
+  75% { background-color: brown;  }
+  100% {background-color: red;  }
+}
+.box {
+  width: 2200px;
+  height: 2000px;
+  perspective: 1000px;
+  animation: cubeRotate 1s infinite ease-in-out;
+}
+
+
+     
+    </style>
+</head>
+<body> 
+    <div class="container" >
+        <div class="box">
+            box
+        </div>
+        <div class="box1">
+            box
+        </div>
+    </div>
+   
+</body>
+</html>

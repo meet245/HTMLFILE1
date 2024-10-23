@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+        html {
+            width: 1330px;
+            height: 2250px;
+            border: 10px solid black;
+            /* background-color: rgb(211, 211, 211); */
+        }
+
+        body {
+            width: 1100px;
+            height: 1500px;
+            position: relative;
+            top: 20px;
+            left: 150px;
+            right: 250px;
+            border: 2px solid black;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .border1 {
+            width: 50px;
+            height: 1000px;
+            border: 1px solid black;
+        }
+
+        .border2 {
+            width: 1050px;
+            height: 100px;
+            position: relative;
+            top: -802px;
+            left: 50px;
+            /* border: 1px solid black; */
+        }
+
+        .youtubeborder {
+            width: 150px;
+            height: 50px;
+            position: relative;
+            top: 0px;
+            /* border: 1px solid black; */
+        }
+
+        .youtube {
+
+            font-size: 30px;
+            position: relative;
+            top: -20px;
+            left: 50px;
+        }
+
+        .fa-youtube {
+            position: relative;
+            top: -78px;
+            left: 10px;
+            font-size: 30px;
+            color: rgb(255, 0, 0);
+
+        }
+
+        .border3 {
+            width: 400px;
+            height: 30px;
+            position: relative;
+            top: -60px;
+            left: 270px;
+            border: 1px solid rgba(225, 225, 225, 1);
+            background: rgba(255, 255, 255, 1);
+
+        }
+
+        .Rectangle6 {
+            width: 50px;
+            height: 30px;
+            position: relative;
+            top: -16px;
+            left: 350px;
+            gap: 0px;
+            opacity: 0px;
+            background: rgba(225, 225, 225, 1);
+
+
+        }
+
+        .don {
+            font-size: 20px;
+            position: relative;
+            left: 360px;
+            top: -60px;
+        }
+
+        .border4 {
+            width: 30px;
+            height: 30px;
+            border-radius: 200px;
+            position: relative;
+            left: 685px;
+            top: -90px;
+            /* border: 1px solid black; */
+            background: rgba(235, 235, 235, 1);
+
+        }
+
+        .fa-microphone {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 5px;
+        }
+
+        .border5 {
+            height: 40px;
+            width: 200px;
+
+            position: relative;
+            left: 830px;
+            top: -130px;
+            /* border: 1px solid black; */
+        }
+
+        .fa-video {
+            font-size: 25px;
+            position: relative;
+            top: 10px;
+        }
+
+        .border6 {
+            width: 500px;
+            height: 50px;
+            position: relative;
+            left: 60px;
+            top: -870px;
+            /* border: 1px solid black; */
+        }
+
+        .img3 {
+            width: 25px;
+            height: 25px;
+            border-radius: 200px;
+            position: relative;
+            top: 12px;
+            left: 45px;
+        }
+
+        .fa-video-plus {
+            font-size: 20px;
+        }
+
+
+
+        .fa-ellipsis-vertical {
+
+            font-size: 25px;
+            position: relative;
+            top: 10px;
+            left: 20px;
+        }
+
+        .fa-bell {
+            font-size: 25px;
+            position: relative;
+            left: 40px;
+            top: 10px;
+        }
+
+        .fa-circle {
+            font-size: 10px;
+            color: red;
+            position: relative;
+            top: -2px;
+            left: 28px;
+        }
+        .line {
+            width: 1050px;
+            position: relative;
+            left: 50px;
+            top: -680px;
+            border: 2px solid rgba(226, 226, 226, 1);
+
+        }
+
+        .Rectangle {
+            width: 53px;
+            height: 32px;
+            gap: 0px;
+            position: relative;
+            top: -5px;
+            border-radius: 36px;
+            opacity: 0px;
+            background: rgba(0, 0, 0, 1);
+
+        }
+
+        .all {
+            width: 16px;
+            height: 16px;
+
+            position: relative;
+            top: 10px;
+            left: 20px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+        .Rectangle1 {
+            width: 72px;
+            height: 32px;
+            position: relative;
+            top: -39px;
+            left: 67px;
+            gap: 0px;
+            border-radius: 36px;
+            border: 1px;
+            opacity: 0px;
+            background: rgba(238, 238, 238, 1);
+            border: 1px solid rgba(167, 167, 167, 1)
+        }
+
+        .mixer {
+            width: 72px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -10px;
+        }
+
+        .Rectangle2 {
+            width: 72px;
+            height: 32px;
+            position: relative;
+            top: -73px;
+            left: 155px;
+            gap: 0px;
+            border-radius: 36px;
+            border: 1px;
+            opacity: 0px;
+            background: rgba(238, 238, 238, 1);
+            border: 1px solid rgba(167, 167, 167, 1)
+        }
+
+        .crypto {
+            width: 48px;
+            height: 16px;
+
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -10px;
+            left: 10px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .Rectangle3 {
+            width: 72px;
+            height: 32px;
+            position: relative;
+            top: -107px;
+            left: 243px;
+            gap: 0px;
+            border-radius: 36px;
+            border: 1px;
+            opacity: 0px;
+            background: rgba(238, 238, 238, 1);
+            border: 1px solid rgba(167, 167, 167, 1)
+        }
+
+        .crypto1 {
+            width: 48px;
+            height: 16px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -10px;
+            left: 10px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .Rectangle4 {
+            width: 60px;
+            height: 32px;
+            position: relative;
+            top: -141px;
+            left: 332px;
+            gap: 0px;
+            border-radius: 36px;
+            border: 1px;
+            opacity: 0px;
+            background: rgba(238, 238, 238, 1);
+            border: 1px solid rgba(167, 167, 167, 1)
+        }
+
+        .html {
+            width: 48px;
+            height: 16px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -10px;
+            left: 5px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .Rectangle5 {
+            width: 40px;
+            height: 32px;
+            position: relative;
+            top: -175px;
+            left: 409px;
+            gap: 0px;
+            border-radius: 36px;
+            border: 1px;
+            opacity: 0px;
+            background: rgba(238, 238, 238, 1);
+            border: 1px solid rgba(167, 167, 167, 1)
+        }
+
+        .css {
+            width: 48px;
+            height: 16px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -15px;
+            left: -5px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="border1"> </div>
+    <div class="line"></div>
+    <div class="border2">
+        <div class="youtubeborder">
+            <p class="youtube"> youtube</p>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="border3">
+            <p class="Rectangle6"></p>
+            <p class="don"><i class="fa-solid fa-magnifying-glass"></i></p>
+            <i class=" fa-solid fa-grip-dots"></i>
+        </div>
+        <div class="border4">
+            <i class="fa-solid fa-microphone"></i>
+        </div>
+        <div class="border5">
+            <i class="fa-solid fa-video"></i>
+
+            <i class="fa-solid fa-grip-dots-vertical"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-duotone fa-solid fa-circle"></i>
+            <img class="img3"
+                src="https://s3-alpha-sig.figma.com/img/e230/df68/458739f97fd748b512f30e72718ac04b?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NpzxS5bB5nHvok34HqlSP66xYNvdkICzoQwyVRm-zlFxslfZ7YPD3mJO5IL-TKPSGEPmcti-X091sfcBaANxvGIHf7mN8T5GPzIH16wZjp-MLBufVD~Bp-fbJK5LTsF9ssFKhl9IrvWk20TEVU4logoIpaePg5c90xMKXolAFqb2ObOWPBbNj7O8mAytFQOmLt4SP4TyqSs70ZssHNfvWUMyT9ZpTH8roSsHOPmopcKCXbQ6WSOmEQ8TqEWmD8rl~MgP~qQkcWtw~NB8t-bdauMd4Sery-XwBc92Vc3HGhMSR33pJc7hW8FGA0vHY1h2mFMngazB9h9Je-xNuvCNgA__">
+        </div>
+    </div>
+
+    <div class="border6">
+        <div class="Rectangle">
+            <p class="all">all</p>
+        </div>
+        <div class="Rectangle1">
+            <p class="mixer">mixer</p>
+        </div>
+        <div class="Rectangle2">
+
+            <p class="crypto">crypto </p>
+        </div>
+        <div class="Rectangle3">
+            <p class="crypto1">crypto </p>
+        </div>
+        <div class="Rectangle4">
+            <p class="html">html</p>
+        </div>
+        <div class="Rectangle5">
+            <p class="css">css</p>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
+<!-- .border1 {
+        width: 1050px;
+        height: 850px;
+        position: relative;
+        left: 50px;
+        top: -87px;
+        border: 1px solid black;
+        background-color: lightgray;
+
+    }
+
+    .border2 {
+        width: 860px;
+        height: 270px;
+        position: relative;
+        top: 35px;
+        /* border: 1px solid black; */
+    }
+
+    .img1 {
+        width: 250px;
+        height: 200px;
+        position: relative;
+        top: -20px;
+    }
+
+    .img2 {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 40px;
+        left: -200px;
+        border-radius: 200px;
+    }
+
+   .chakra1 {
+        width: 160px;
+        height: 14px;
+        position: relative;
+        left: 40px;
+        gap: 0px;
+        opacity: 0px;
+
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 14.06px;
+        text-align: left;
+
+        color: rgb(0, 0, 0);
+
+    }
+
+    .dosome1 {
+        width: 58px;
+        height: 9px;
+        position: relative;
+        left: 40px;
+        top: -10px;
+        gap: 0px;
+        opacity: 0px;
+
+        font-family: Roboto;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 9.38px;
+        text-align: left;
+        color: rgba(72, 72, 72, 1);
+
+    }
+
+    .views {
+        width: 31px;
+        height: 7px;
+        position: relative;
+        left: 40px;
+        top: -15px;
+        gap: 0px;
+        opacity: 0px;
+
+        font-family: Roboto;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 7.03px;
+        text-align: left;
+        color: rgba(0, 0, 0, 1);
+
+    }
+
+    .day1 {
+        width: 26px;
+        height: 7px;
+        position: relative;
+        left: 75px;
+        top: -28px;
+        gap: 0px;
+        opacity: 0px;
+
+        font-family: Roboto;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 7.03px;
+        text-align: left;
+        color: rgba(0, 0, 0, 1);
+
+    }
+        
+        /* .border3 {
+            position: relative;
+            left: 220px;
+            top: -281px;
+        }
+
+
+        .border4 {
+
+            position: relative;
+            top: -562px;
+            left: 440px;
+        }
+
+        .border5 {
+
+            position: relative;
+            top: -843px;
+            left: 660px;
+        }
+
+        .border6 {
+            width: 860px;
+            height: 270px;
+            position: relative;
+            top: 35px;
+             border: 1px solid black; 
+        }
+
+        .border7 {
+            width: 860px;
+            height: 270px;
+            position: relative;
+            top: 35px;
+            border: 1px solid black; 
+        } */ -->
+<!-- <div class="border2">
+        <img class="img1" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+        <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+        <p class="chakra1">Chakra UI Complete Course Hindi</p>
+        <p class="dosome1">Do some coding</p>
+        <p class="views">10Cr Views</p>
+        <p class="day1">1 day ago</p>
+
+        <div class="border3">
+            <img class="img4" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+        <div class="border4">
+            <img class="img5" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+        <div class="border5">
+            <img class="img6" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+    </div>
+    <div class="border6">
+        <img class="img7" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+        <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+        <p class="chakra1">Chakra UI Complete Course Hindi</p>
+        <p class="dosome1">Do some coding</p>
+        <p class="views">10Cr Views</p>
+        <p class="day1">1 day ago</p>
+
+        <div class="border3">
+            <img class="img8" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+        <div class="border4">
+            <img class="img9" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+         <div class="border5">
+            <img class="img10" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+    </div>
+    <div class="border7">
+        <img class="img11" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+        <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+        <p class="chakra1">Chakra UI Complete Course Hindi</p>
+        <p class="dosome1">Do some coding</p>
+        <p class="views">10Cr Views</p>
+        <p class="day1">1 day ago</p>
+
+        <div class="border3">
+            <img class="img12" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+        <div class="border4">
+            <img class="img13" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+        <div class="border5">
+            <img class="img14" src="https://s3-alpha-sig.figma.com/img/3007/ff1a/68294595dda8d00261eb7532b2cd66d0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4nGmogkgIOmJlyV15x8PZjf9h6SPX92aBfyHIqjvKHXNAiKIZ-pCa0uIkyezo8Su3-seDJN7YpitpvvTjlp~~jA7a-OH2eYXzcaEpSYTTIeGb2iAjcRTNWo2DqpRR9UC7OpNCNV~FdgCW0NDrfg69wRVDnjm-ENPyYZmEQEhn6N8ugREKaby0urN6rc6jKLpfzzHL2K5kyD6MBvUCuLlKoSKlIfAk17asEMzlnH9ktN6R~6T5OsDPxRlDmrXs7iLDPnyUmfoASk~H8z6ZDc2Zt~APxj0sa1C7auLjLlHC0uWHsdvgt0UXBzNn0Dis445JIP4RMgW~1c4zm~hNww8A__" alt="">
+            <img class="img2" src="stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="">
+            <p class="chakra1">Chakra UI Complete Course Hindi</p>
+            <p class="dosome1">Do some coding</p>
+            <p class="views">10Cr Views</p>
+            <p class="day1">1 day ago</p>
+        </div>
+    </div>
+</div> -->

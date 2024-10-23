@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RESULTANT WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+        html {
+            width: 1330px;
+            height: 2170px;
+            border: 10px solid black;
+            /* background-color: lightgray; */
+        }
+
+        body {
+            width: 1330px;
+            height: 2165px;
+            position: relative;
+            /* top: 20px; */
+            left: -10px;
+
+            border: 2px solid black;
+            background-color: white;
+
+
+        }
+
+        .border1 {
+            width: 300px;
+            height: 50px;
+            position: relative;
+            top: 40px;
+            left: 40px;
+            /* border: 1px solid black; */
+        }
+
+        .fa-bars {
+            font-size: 30px;
+            position: relative;
+            left: 1220px;
+            top: 80px;
+
+        }
+
+        .company {
+            width: 126px;
+            height: 27px;
+            position: relative;
+            top: -40px;
+            left: 90px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Russo One;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(20, 159, 57, 1);
+            perspective: 1000px;
+            animation: cube 2s 2 ease-in-out;
+        }
+
+        @keyframes cube {
+            0% {
+                transform: rotateX(0) rotateY(0);
+            }
+
+            25% {
+                transform: rotateX(90deg) rotateY(0);
+            }
+
+            50% {
+                transform: rotateX(90deg) rotateY(90deg);
+            }
+
+            75% {
+                transform: rotateX(0) rotateY(90deg);
+            }
+        }
+
+        .katori {
+            width: 80px;
+            height: 80px;
+            position: relative;
+            top: -150px;
+            left: 10px;
+        }
+
+        .img {
+            height: 450px;
+            width: 450px;
+            position: relative;
+            left: 150px;
+            top: -120px;
+            border-radius: 300px;
+        }
+
+        .border2 {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            top: 80px;
+            left: 730px;
+            /* border: 1px solid black;  */
+        }
+
+        .all {
+            width: 200px;
+            
+            position: relative;
+            font-size: 20px;
+            color: white;
+           border-radius: 200px;
+            animation: cubeRotate 1s infinite ease-in-out;
+        }
+            @keyframes cubeRotate {
+  0% {  background-color: aqua;}
+  25% {   background-color: rgb(37, 23, 243);}
+  50% {  background-color: blueviolet; }
+  75% { background-color: brown;  }
+  100% {background-color: red;  }
+}
+        
+
+        .enjoy {
+            width: 300px;
+            height: 100px;
+            top: -30px;
+            position: relative;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 50.38px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .lorem {
+            width: 250px;
+            height: 35px;
+            position: relative;
+            top: -70px;
+
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .Rectangle2 {
+            width: 174px;
+            height: 40px;
+            margin-top: -60px;
+            left: 739px;
+            gap: 0px;
+            opacity: 0px;
+            background: rgba(255, 192, 102, 1);
+
+        }
+
+        .explore {
+            width: 140px;
+            height: 19px;
+            position: relative;
+            top: -60px;
+            left: 10px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+        .border3 {
+            width: 900px;
+            height: 100px;
+            position: relative;
+            left: 200px;
+            top: 250px;
+            /* border: 1px solid black; */
+        }
+
+        .border4 {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 0px;
+            /* border: 1px solid black; */
+        }
+
+        .discount1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 0px;
+            top: 0px;
+            left: 0px;
+        }
+
+        .discount {
+            width: 200px;
+            height: 19px;
+            position: relative;
+            top: -82px;
+            left: 80px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        #one {
+            width: 140px;
+            height: 38px;
+            position: relative;
+            top: -100px;
+            left: 80px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 15px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .border5 {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            top: -103px;
+            left: 300px;
+            /* border: 1px solid black; */
+        }
+
+        .fresh1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 0px;
+            top: 0px;
+            left: 0px;
+        }
+
+        .fresh {
+            width: 200px;
+            height: 19px;
+            position: relative;
+            top: -82px;
+            left: 80px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        #two {
+            width: 140px;
+            height: 38px;
+            position: relative;
+            top: -95px;
+            left: 80px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 15px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        .border6 {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            top: -205px;
+            left: 600px;
+            /* border: 1px solid black; */
+        }
+
+        .fast1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 0px;
+            top: 0px;
+            left: 0px;
+        }
+
+        .fast {
+            width: 157px;
+            height: 19px;
+            position: relative;
+            top: -82px;
+            left: 80px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        #three {
+            width: 140px;
+            height: 38px;
+            position: relative;
+            top: -95px;
+            left: 80px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 15px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        .line {
+            width: 1330px;
+            height: 0px;
+            position: relative;
+            right: 100px;
+            top: 300px;
+            gap: 0px;
+            left: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+
+
+            border: 1px solid rgba(183, 183, 183, 1)
+        }
+
+        .border7 {
+            width: 400px;
+            height: 150px;
+            position: relative;
+            top: 320px;
+            left: 450px;
+            /* border: 1px solid black; */
+        }
+
+        .Rectangle3 {
+            width: 150px;
+            height: 43px;
+            position: relative;
+            top: 170px;
+            left: 550px;
+            gap: 0px;
+            opacity: 0px;
+            background: rgba(20, 159, 57, 1);
+
+        }
+
+        .OurMenu {
+            width: 150px;
+            height: 17px;
+            position: relative;
+            top: 110px;
+            left: 570px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 28.13px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+
+        .exploreour {
+            width: 287px;
+            height: 55px;
+            position: relative;
+            top: 110px;
+            left: 500px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 42.19px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .img1 {
+            width: 500px;
+            height: 500px;
+            position: relative;
+            top: 0px;
+            left: 20px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img1:hover {
+            transform: scale(1.05);
+        }
+
+
+        .img2 {
+            width: 250px;
+            height: 500px;
+            position: relative;
+            top: 0px;
+            left: 46px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img2:hover {
+            transform: scale(1.05);
+        }
+
+        .img3 {
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: -250px;
+            left: 72px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img3:hover {
+            transform: scale(1.05);
+        }
+
+        .img4 {
+            width: 250px;
+            height: 500px;
+            position: relative;
+            top: -225px;
+            left: 830px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img4:hover {
+            transform: scale(1.05);
+        }
+
+        .img5 {
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: -225px;
+            left: 296px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img5:hover {
+            transform: scale(1.05);
+        }
+
+        .img6 {
+            width: 235px;
+            height: 250px;
+            position: relative;
+            top: -225px;
+            right: 223px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img6:hover {
+            transform: scale(1.05);
+        }
+
+        .img7 {
+            width: 235px;
+            height: 250px;
+            position: relative;
+            top: -225px;
+            right: 727px;
+            gap: 0px;
+            opacity: 0px;
+            border-radius: 0px;
+            transition: all 0.11 s ease-in-out;
+        }
+
+        .img7:hover {
+            transform: scale(1.05);
+        }
+
+        .border8 {
+            width: 1100px;
+            height: 800px;
+            position: relative;
+            top: 100px;
+            left: 110px;
+            /* border: 1px solid black; */
+        }
+
+        .border9 {
+
+            width: 1330px;
+            height: 250px;
+            position: relative;
+            top: 150px;
+            left: 0px;
+            /* border: 1px solid black; */
+            background: rgba(255, 240, 219, 1);
+        }
+
+
+        .notopot {
+            width: 70px;
+            height: 70px;
+            position: relative;
+            left: 100px;
+
+        }
+
+        .company1 {
+            width: 126px;
+            height: 27px;
+            position: relative;
+            top: -90px;
+            left: 170px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Russo One;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(20, 159, 57, 1);
+        }
+
+        .border10 {
+            width: 130px;
+            height: 200px;
+            position: relative;
+            top: -160px;
+            left: 400px;
+            /* border: 1px solid black; */
+        }
+
+        .MainLink {
+            width: 100px;
+            height: 17px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(86, 86, 86, 1);
+
+        }
+
+        .order {
+            position: relative;
+            top: -20px;
+            left: 0px;
+
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+            text-align: left;
+
+        }
+
+        .MainLink1 {
+            display: grid;
+            grid-template-rows: -1fr;
+        }
+
+        .border11 {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: -380px;
+            left: 560px;
+            /* border: 1px solid black; */
+        }
+
+        .Support {
+            width: 85px;
+            height: 17px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(86, 86, 86, 1);
+        }
+
+
+
+
+        .border12 {
+            width: 308px;
+            height: 200px;
+            position: relative;
+            top: -600px;
+            left: 800px;
+            /* border: 1px solid black; */
+        }
+
+        .JoinOur {
+            width: 185px;
+            height: 17px;
+            position: relative;
+            top: 3px;
+            left: 0px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(86, 86, 86, 1);
+        }
+
+        .EnterYourEmailAddress {
+            width: 200px;
+            height: 24px;
+            position: relative;
+            top: -0px;
+            left: 0px;
+            gap: 0px;
+            border: 0.2px 0px 0px 0px;
+            opacity: 0px;
+            background: rgba(255, 255, 255, 1);
+            border: 0.2px solid rgba(0, 0, 0, 1)
+        }
+
+        .followus {
+            width: 84px;
+            height: 17px;
+            top: 0px;
+            left: 0px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 19px;
+            text-align: left;
+            color: rgba(86, 86, 86, 1);
+
+        }
+
+        .fa-facebook-f {
+            font-size: 20px;
+        }
+
+        .fa-twitter {
+            font-size: 20px;
+            position: relative;
+            left: 10px;
+        }
+
+        .fa-instagram {
+            font-size: 20px;
+            position: relative;
+            left: 20px;
+        }
+
+        .fa-youtube {
+            font-size: 20px;
+            position: relative;
+            left: 30px;
+        }
+
+        .noto {
+            width: 70px;
+            height: 70px;
+            position: relative;
+            top: 70px;
+            left: -10px;
+        }
+
+        .AboutUs {
+            position: relative;
+            top: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <i class="fa-solid fa-bars"></i>
+    <div class="border1">
+        <p class="company">company</p>
+        <img class="katori" src="noto_pot-of-food.png">
+        <div><img class="img" src="Hero Image.png"></div>
+    </div>
+    <div class="border2">
+        <P class="all"> 50% off all products </P>
+        <p class="enjoy">enjoy your delicious food</p>
+        <p class="lorem">Quisque velit nisi, pretium ut lacinia ineget tincidunt nibh pulvinar a.</p>
+        <p class="Rectangle2"></p>
+        <p class="explore">explore now</p>
+    </div>
+    <div class="border3">
+        <div class="border4">
+            <img class="discount1" src="icons8-summer-sales-48 1.png">
+            <p class="discount">discount vouchar</p>
+            <p id="one">Quisque velit nisi, pretium ut lacinia in df fasf </p>
+        </div>
+        <div class="border5">
+            <img class="fresh1" src="icons8-fruits-and-vegetables-64 1.png">
+
+            <p class="fresh">fresh healthy food </p>
+            <p id="two">Quisque velit nisi, pretium ut lacinia in df fasf </p>
+        </div>
+        <div class="border6">
+            <img class="fast1" src="icons8-delivery-64 1.png">
+
+            <p class="fast">fast home delivery</p>
+            <p id="three">Quisque velit nisi, pretium ut lacinia in df fasf </p>
+        </div>
+    </div>
+    <p class="line"></p>
+    <div class="border7"></div>
+    <p class="Rectangle3"></p>
+    <p class="OurMenu">Our Menu</p>
+    <p class="exploreour">Explore Our Menu</p>
+    </div>
+    <div class="border8">
+        <img class="img1" src="unsplash_yCIcDyKm440.png" alt="">
+        <img class="img2" src="unsplash_POFG828-GQc (1).png" alt="">
+        <img class="img3" src="unsplash_qeWlYA2G_n4.png" alt="">
+        <img class="img4" src="unsplash_tG9eGRhaSXE.png" alt="">
+        <img class="img5" src="unsplash_2YVTkdlfKfA.png" alt="">
+        <img class="img6" src="unsplash_FFqNATH27EM.png" alt="">
+        <img class="img7" src="unsplash_JCbsOIhr5BY (1).png" alt="">
+    </div>
+    <div class="border9">
+        <img class="notopot" src="noto_pot-of-food.png">
+        <p class="company1">company</p>
+        <div class="border10">
+
+            <p class="MainLink">Main Link</p>
+
+            <p> Order Tracking</p>
+            <p>New Order</p>
+            <p>Contact Us</p>
+            <p>News & Blogs</p>
+
+        </div>
+
+        <div class="border11">
+            <P class="Support">Support</P>
+
+            <p>About Us</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+
+        </div>
+        <div class="border12">
+            <p class="JoinOur">Join Our Newsletter</p>
+            <input class="EnterYourEmailAddress" type="text" name="name" placeholder="Enter Your Email Address">
+            <p class="followus">follow us</p>
+            <div class="border13">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

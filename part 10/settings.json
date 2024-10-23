@@ -1,0 +1,8 @@
+{
+    "livePreview.hostIP": "192.168.0.35",
+    "livePreview.defaultPreviewPath": "",
+    "livePreview.tasks.runTaskWithExternalPreview": true,
+    "livePreview.showServerStatusNotifications": false,
+    "livePreview.customExternalBrowser": "Chrome",
+    "livePreview.openPreviewTarget": "External Browser"
+}

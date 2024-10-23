@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meet</title>
+    <style>
+        .container {
+            height: 82vh;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 400px;
+            height: 400px;
+            display: flex;
+        animation-name: meetdon;
+            justify-content: center;
+            background-color: blue;
+            border: 2px solid black;
+            border-radius: 50px;
+            transition: all 1s ease-in-out;
+            
+        }
+
+        /* .box:hover {
+            transform: rotate(20deg ,-340d);
+            /* transform: scale(1.1); */
+        
+        @keyframes meetdon {
+            from{
+an: rotate(20deg);
+            }
+            to{
+transform: rotate(340deg);
+            }
+        }
+        .color{
+            height: 100px;
+            width: 100px;
+            border-radius: 200px;
+            animation-name: colors;
+            animation-duration: 0.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: 0.2s;
+        }
+        @keyframes colors {
+            0%{
+                background-color: blue;
+            }
+            25%{
+                background-color: darkcyan;
+            }
+            50%{
+                background-color: darkred;
+            }
+            75%{
+                background-color: goldenrod;
+            }
+            100%{
+                background-color:lightgreen;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            this is don
+        </div>
+        
+    </div>
+    <div class="color">hiii</div>
+</body>
+
+</html>
